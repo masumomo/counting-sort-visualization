@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Code Chrysalis</title>
+    <script src="https://cdnjs.com/libraries/snabbt.js"></script>
+  </head>
+
+  <body>
+    <div id="initSetting"></div>
+    <form>
+      <input type="button" id="resultStartBtn" value="NextStep" />
+      <input type="button" id="resultStartAutoBtn" value="Auto" />
+    </form>
+
+    <div class="CountingSortVisual">
+      <h2>Input array</h2>
+      <div class="originalArray items"></div>
+      <div class="originalArrayLabel items index"></div>
+
+      <h2>Counter array</h2>
+      <div class="counterLabel items label"></div>
+      <div class="counterArray items"></div>
+      <h2>Output array</h2>
+      <div class="outputArray items"></div>
+      <div class="outputArrayLabel items index"></div>
+    </div>
+    <!--
+    Where is this public/bundle.js file coming from?
+    It comes from our trusty friend, webpack.
+  -->
+    <script type="text/javascript" src="/public/bundle.js"></script>
+  </body>
+</html>
